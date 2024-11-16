@@ -129,21 +129,21 @@ while True:
     total_sum += number
 print(f"the total of your all positive numbers: {total_sum}")
 
-13.
+#13.
 
 def wtf():
     print("hello world")
 wtf()
 
 
-14.
+#14.
 
 def wtf(hello):
     print(hello + " amit")
 wtf("hello")    
   
  
-15.
+#15.
 
 number = int(input("enter a number: "))
 
@@ -153,7 +153,7 @@ result = square(number)
 print(f"the square of {number} is {result}.")
 
 
-16.
+#16.
 
 def factorial(n):
     res = 1
@@ -163,7 +163,7 @@ def factorial(n):
 print(factorial(9)) 
 
 
-17. 
+#17. 
 
 def find_max(lst):
     max = lst[0]
