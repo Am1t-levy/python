@@ -1,4 +1,4 @@
-1.
+#1.
 student = {
     "name": "amit",
     "age": 22,
@@ -10,7 +10,7 @@ student["school"] = "harvard"
 print(student)
 
 
-2.
+#2.
 student.update({"age": "23"})
 print(student)
 
@@ -22,7 +22,7 @@ if "school" in student.keys():
 else:
     print("nahh bro")
 
-3. 
+#3. 
 capitals = { 'france': 'paris', 'spain': 'madrid', 'japan': 'tokyo' } 
 for country, capital in capitals.items():
      print(f"the capital of {country} is {capital}")
@@ -35,7 +35,7 @@ capital_of_germany = capitals.get('germany', 'not found')
 print("the capital of germany is:", capital_of_germany)
 
 
-5.
+#5.
 def count_chars(text):
   d = {} 
   for c in text:
