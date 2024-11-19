@@ -7,7 +7,7 @@ class Book:
     def __str__(self):
         return f"Title: {self.title}, Author: {self.author}, Copies: {self.copies}"
 book1 = Book("prisoner of azkaban", "J.K_rowling", 5000)
-print(book1)
+
 
 class Library:
     def __init__(self):
@@ -22,7 +22,7 @@ class Library:
 
     def find_book_by_title(self, title):
         for book in self.books:
-            if book.title.lower() == title.lower():  # Case-insensitive match
+            if book.title.lower() == title.lower():  
                 return book
         return None
 
